@@ -1,0 +1,307 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "first_team_name": "Los Angeles Lakers",
+      "second_team_name": "Golden State Warriors",
+      "first_team_image": "https://www.freepnglogos.com/uploads/lakers-logo-png/lakers-free-hd-logo-png-2.png",
+      "second_team_image": "https://www.freepnglogos.com/uploads/warriors-png-logo/golden-state-warriors-png-logo-9.png",
+      "score": "120:115",
+      "description": "Stephen Curry scored 29 points and the Warriors capitalized on Smith's mistake that sent the game into overtime, overcoming a 51-point performance by James to beat Lakers 120-115 on Thursday night.",
+      "background_image": "https://cdn.vox-cdn.com/thumbor/U056N8XATmtq73WtCBf4nysbZoA=/0x0:4129x2753/920x613/filters:focal(0x0:4129x2753):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/49023565/usa-today-8887948.0.jpg"
+    },
+    {
+      "id": 2,
+      "first_team_name": "Phoenix Suns",
+      "second_team_name": "Boston Celtics",
+      "first_team_image": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png",
+      "second_team_image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Boston_Celtics.svg/1200px-Boston_Celtics.svg.png",
+      "score": "108:117",
+      "description": "Walker matched his season high with 32 points and the Boston Celtics rolled to a 108:117 victory over the Phoenix Suns on Thursday night. The Celtics were without Jaylen Brown because of a sore left shoulder, and Jayson Tatum struggled shooting for the second straight game, going 3 of 17.",
+      "background_image": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/_BzW6fdPAiODPHnGQke_n5dgBk0=/1440x0/cloudfront-us-east-1.images.arcpublishing.com/bostonglobe/FKND5OXCVGZNPBBNRAJBJVXQZ4.jpg"
+    },
+    {
+      "id": 3,
+      "first_team_name": "Los Angeles Clippers",
+      "second_team_name": "Denver Nuggets",
+      "first_team_image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Los_Angeles_Clippers_%282015%29.svg/1200px-Los_Angeles_Clippers_%282015%29.svg.png",
+      "second_team_image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Denver_Nuggets.svg/1200px-Denver_Nuggets.svg.png",
+      "score": "112:124",
+      "description": "The Nuggets dominated the first three quarters on a night when Nikola Jokic didn't reach double figures until hitting a 3-pointer with 5:20 left in the game. He finished with 14 points, seven rebounds and seven assists. 'We expect 30, 20 and 15 from him every night,'",
+      "background_image": "https://www.sportsvideo.org/new/wp-content/uploads/2021/01/Nuggets-Featured-scaled.jpg"
+    },
+    {
+      "id": 4,
+      "first_team_name": "Toronto Raptors",
+      "second_team_name": "Brooklyn Nets",
+      "first_team_image": "https://upload.wikimedia.org/wikipedia/sr/1/1e/Toronto_Raptors_logo_2015-16.png",
+      "second_team_image": "https://b.fssta.com/uploads/application/nba/team-logos/Nets.png",
+      "score": "95:121",
+      "description": "Kyrie Irving had 28 points, 11 rebounds and eight assists, and Bruce Brown added 21 points and 14 rebounds for the Nets, who again played without the injured Kevin Durant. 'It's obviously a difficult situation, but a lot of teams are playing short-handed. You've got to play with the guys who are there,' said Joe Harris.",
+      "background_image": "https://www.gannett-cdn.com/media/USATODAY/USATODAY/2012/10/31/usp-nba_-preseason-washington-wizards-at-brooklyn-16_9.jpg?width=1600&height=800&fit=crop&format=pjpg&auto=webp"
+    },
+    {
+      "id": 5,
+      "first_team_name": "Atlanta Hawks",
+      "second_team_name": "Milwaukee Bucks",
+      "first_team_image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/24/Atlanta_Hawks_logo.svg/1200px-Atlanta_Hawks_logo.svg.png",
+      "second_team_image": "https://cdn.freebiesupply.com/images/large/2x/milwaukee-bucks-logo-transparent.png",
+      "score": "101:111",
+      "description": "Middleton broke a tie with a jumper with 0.5 seconds left in overtime and had 27 points to help the Bucks beat the Heat 109-107 on Saturday in Game 1 of the first-round series. 'I have confidence in myself,' Middleton said. 'You miss a lot of shots. You make a lot of shots.'",
+      "background_image": "https://a.espncdn.com/photo/2015/0728/nba_g_bucksts_1296x729.jpg"
+    }
+  ],
+  "teams": [
+    {
+      "id": 1001,
+      "name": "Los Angeles Lakers",
+      "front_image": "https://www.freepnglogos.com/uploads/lakers-logo-png/lakers-free-hd-logo-png-2.png",
+      "back_image": "http://tile.loc.gov/image-services/iiif/service:pnp:highsm:24300:24341/full/pct:25/0/default.jpg",
+      "standing": 1,
+      "conference": "W",
+
+      "conference_name": "Western Conference",
+      "roster": [
+        { "id": "103", "name": "Lebron James" },
+        { "id": "140", "name": "Anthony Davis" },
+        { "id": "101", "name": "Russell Westbrook" },
+        { "id": "109", "name": "Carmelo Anthony" },
+        { "id": "110", "name": "Dwight Howard" }
+      ],
+      "bio": "The Los Angeles Lakers are an American professional basketball team based in Los Angeles. The Lakers compete in the National Basketball Association (NBA) as a member of the league's Western Conference Pacific Division. The Lakers play their home games at Staples Center, an arena shared with the NBA's Los Angeles Clippers, the Los Angeles Sparks of the Women's National Basketball Association, and the Los Angeles Kings of the National Hockey League. The Lakers are one of the most successful teams in the history of the NBA, and have won 17 NBA championships, tied with the Boston Celtics for the most in NBA history."
+    },
+    {
+      "id": 1002,
+      "name": "Golden State Warriors",
+      "front_image": "https://www.freepnglogos.com/uploads/warriors-png-logo/golden-state-warriors-png-logo-9.png",
+      "back_image": "https://cdn.vox-cdn.com/thumbor/U056N8XATmtq73WtCBf4nysbZoA=/0x0:4129x2753/920x613/filters:focal(0x0:4129x2753):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/49023565/usa-today-8887948.0.jpg",
+      "standing": 2,
+      "conference": "W",
+      "conference_name": "Western Conference",
+      "roster": [
+        { "id": "102", "name": "Stephen Curry" },
+        { "id": "111", "name": "Klay Thompson" },
+        { "id": "112", "name": "Draymond Green" },
+        { "id": "113", "name": "Andrew Wiggins" },
+        { "id": "114", "name": "James Wiseman" }
+      ],
+      "bio": "The Golden State Warriors are an American professional basketball team based in San Francisco. The Warriors compete in the National Basketball Association (NBA), as a member of the league's Western Conference Pacific Division. Founded in 1946 in Philadelphia, the Warriors moved to the San Francisco Bay Area in 1962 and took the city's name, before changing its geographic moniker to Golden State in 1971. The club plays its home games at the Chase Center."
+    },
+    {
+      "id": 1003,
+      "name": "Brooklyn Nets",
+      "front_image": "https://b.fssta.com/uploads/application/nba/team-logos/Nets.png",
+      "back_image": "https://www.gannett-cdn.com/media/USATODAY/USATODAY/2012/10/31/usp-nba_-preseason-washington-wizards-at-brooklyn-16_9.jpg?width=1600&height=800&fit=crop&format=pjpg&auto=webp",
+      "standing": 1,
+      "conference": "E",
+      "conference_name": "Eastern Conference",
+      "roster": [
+        { "id": "104", "name": "Kevin Durant" },
+        { "id": "106", "name": "James Harden" },
+        { "id": "115", "name": "Kyrie Irving" },
+        { "id": "116", "name": "Blake Griffin" },
+        { "id": "117", "name": "Jo Harris" }
+      ],
+      "bio": "The Brooklyn Nets are an American professional basketball team based in the New York City borough of Brooklyn. The Nets compete in the National Basketball Association (NBA) as a member of the Atlantic Division of the Eastern Conference. The team plays its home games at Barclays Center. They are one of two NBA teams located in New York City; the other is the New York Knicks. The club was established in 1967 as a charter franchise of the NBA's rival league, the American Basketball Association (ABA). They played in New Jersey as the New Jersey Americans during their first season, before relocating to Long Island, New York, in 1968 and changing their name to the New York Nets. During this time, the Nets won two ABA championships (in 1974 and 1976). In 1976, the ABA merged with the NBA, and the Nets were absorbed into the NBA along with three other ABA teams (the San Antonio Spurs, Indiana Pacers, and Denver Nuggets), all of whom remain in the league to this day."
+    },
+    {
+      "id": 1004,
+      "name": "Denver Nuggets",
+      "front_image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Denver_Nuggets.svg/1200px-Denver_Nuggets.svg.png",
+      "back_image": "https://www.sportsvideo.org/new/wp-content/uploads/2021/01/Nuggets-Featured-scaled.jpg",
+      "standing": 3,
+      "conference": "W",
+      "conference_name": "Western Conference",
+      "roster": [
+        { "id": "107", "name": "Nikola Jokic" },
+        { "id": "118", "name": "Michael Porter Jr" },
+        { "id": "119", "name": "Jeff Green" },
+        { "id": "120", "name": "Monte Morris" },
+        { "id": "121", "name": "Will Barton" }
+      ],
+      "bio": "The Denver Nuggets are an American professional basketball team based in Denver. The Nuggets compete in the National Basketball Association (NBA) as a member of the league's Western Conference Northwest Division. The team was founded as the Denver Larks in 1967 as a charter franchise of the American Basketball Association (ABA), but changed their name to Rockets before the first season. The Rockets then changed their name again to the Nuggets in 1974. After the name change, the Nuggets played for the final ABA Championship title in 1976, losing to the New York Nets."
+    },
+    {
+      "id": 1005,
+      "name": "Milwaukee Bucks",
+      "front_image": "https://cdn.freebiesupply.com/images/large/2x/milwaukee-bucks-logo-transparent.png",
+      "back_image": "https://a.espncdn.com/photo/2015/0728/nba_g_bucksts_1296x729.jpg",
+      "standing": 2,
+      "conference": "E",
+      "conference_name": "Eastern Conference",
+      "roster": [
+        { "id": "105", "name": "Giannis Antetokounmpo" },
+        { "id": "122", "name": "Khris Middleton" },
+        { "id": "123", "name": "Jrue Holiday" },
+        { "id": "124", "name": "Donte DiVincenzo" },
+        { "id": "125", "name": "Brook Lopez" }
+      ],
+      "bio": "The Milwaukee Bucks are an American professional basketball team based in Milwaukee. The Bucks compete in the National Basketball Association (NBA) as a member of the league's Eastern Conference Central Division. The team was founded in 1968 as an expansion team, and play at the Fiserv Forum. Former U.S. Senator Herb Kohl was the long-time owner of the team, but on April 16, 2014, a group led by billionaire hedge fund managers Wes Edens and Marc Lasry agreed to purchase a majority interest in the team from Kohl, a sale which was approved by the owners of the NBA and its Board of Governors one month later on May 16. The team is managed by Jon Horst, the team's former director of basketball operations, who took over from John Hammond in May 2017."
+    },
+    {
+      "id": 1006,
+      "name": "Atlanta Hawks",
+      "front_image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/24/Atlanta_Hawks_logo.svg/1200px-Atlanta_Hawks_logo.svg.png",
+      "back_image": "https://a.vsstatic.com/mobile/app/nba/atlanta-hawks.jpg",
+      "standing": 3,
+      "conference": "E",
+      "conference_name": "Eastern Conference",
+      "roster": [
+        { "id": "126", "name": "Trae Young" },
+        { "id": "127", "name": "Bogdan Bogdanovic" },
+        { "id": "128", "name": "De'Andre Hunter DD" },
+        { "id": "129", "name": "John Collins" },
+        { "id": "130", "name": "Clint Capela" }
+      ],
+      "bio": "The Atlanta Hawks are an American professional basketball team based in Atlanta. The Hawks compete in the National Basketball Association (NBA) as a member of the league's Eastern Conference Southeast Division. The team plays its home games at State Farm Arena. The team's origins can be traced to the establishment of the Buffalo Bisons in 1946 in Buffalo, New York, a member of the National Basketball League (NBL) owned by Ben Kerner and Leo Ferris. After 38 days in Buffalo, the team moved to Moline, Illinois, where they were renamed the Tri-Cities Blackhawks. In 1949, they joined the NBA as part of the merger between the NBL and the Basketball Association of America (BAA), and briefly had Red Auerbach as coach. In 1951, Kerner moved the team to Milwaukee, where they changed their name to the Hawks. Kerner and the team moved again in 1955 to St. Louis, where they won their only NBA Championship in 1958 and qualified to play in the NBA Finals in 1957, 1960 and 1961. The Hawks played the Boston Celtics in all four of their trips to the NBA Finals. The St. Louis Hawks moved to Atlanta in 1968, when Kerner sold the franchise to Thomas Cousins and former Georgia Governor Carl Sanders."
+    },
+    {
+      "id": 1007,
+      "name": "Oklahoma City Thunder",
+      "front_image": "https://www.pngall.com/wp-content/uploads/2016/04/Oklahoma-City-Thunder-PNG.png",
+      "back_image": "https://okcfox.com/resources/media/3c9b16af-8477-49da-afef-0108896e8019-medium16x9_201210_Beeker_NC_040.JPG?1607727425177",
+      "standing": 7,
+      "conference": "W",
+      "conference_name": "Western Conference",
+      "roster": [
+        { "id": "131", "name": "Shai Gilgeous-Alexander" },
+        { "id": "132", "name": "Josh Giddey" },
+        { "id": "133", "name": "Luguentz Dort" },
+        { "id": "134", "name": "Darius Bazley" },
+        { "id": "135", "name": "Derrick Favors" }
+      ],
+      "bio": "The Oklahoma City Thunder are an American professional basketball team based in Oklahoma City. The Thunder compete in the National Basketball Association (NBA) as a member of the league's Western Conference Northwest Division. The team plays its home games at Paycom Center. The Thunder's NBA G League affiliate is the Oklahoma City Blue, which it owns. The Thunder are the only team in the major professional North American sports leagues based in the state of Oklahoma. Oklahoma City previously hosted the New Orleans Hornets for two seasons following devastation caused by Hurricane Katrina in New Orleans."
+    },
+    {
+      "id": 1008,
+      "name": "Dallas Mavericks",
+      "front_image": "https://www.pngkit.com/png/full/221-2210797_mavs-dallas-mavericks-logo.png",
+      "back_image": "https://cdn.vox-cdn.com/thumbor/goQ8_D0R509jcJal8kLKhlfKYik=/0x0:4928x3280/1200x800/filters:focal(2070x1246:2858x2034)/cdn.vox-cdn.com/uploads/chorus_image/image/54629969/usa_today_9638443.0.jpg",
+      "standing": 6,
+      "conference": "W",
+      "conference_name": "Western Conference",
+      "roster": [
+        { "id": "108", "name": "Luka Doncic" },
+        { "id": "136", "name": "Tim Hardaway Jr." },
+        { "id": "137", "name": "Dorian Finney-Smith" },
+        { "id": "138", "name": "Kristaps Porzingis" },
+        { "id": "139", "name": "Maxi Kleber" }
+      ],
+      "bio": "The Dallas Mavericks (often referred to as the Mavs) are an American professional basketball team based in Dallas. The Mavericks compete in the National Basketball Association (NBA) as a member of the Western Conference Southwest Division. The team plays its home games at the American Airlines Center, which it shares with the National Hockey League's Dallas Stars. Throughout the 1980s, the Mavericks were a perennial playoff team, led by All-Stars Rolando Blackman and Mark Aguirre. The team struggled during the 1990s, entering into a period of rebuilding. In 1998, the franchise's fortunes would change drastically with the acquisition of Dirk Nowitzki, who would become the cornerstone of the most successful period in franchise history, leading the team to its first NBA championship in 2011."
+    }
+  ],
+  "players": [
+    {
+      "id": 101,
+      "name": "Russell Westbrook",
+      "front_image": "https://cdn2.newsok.biz/cache/r960-95ca2252f17cc1ffb795297b664c4936.jpg",
+      "back_image": "https://wallpapercave.com/wp/wp1839278.jpg",
+      "team": "Los Angeles Lakers",
+      "team_image": "https://www.freepnglogos.com/uploads/lakers-logo-png/lakers-free-hd-logo-png-2.png",
+      "stat_ppg": 25.4,
+      "stat_apg": 10.3,
+      "stat_rpg": 10.1,
+      "position": "PG",
+      "position_name": "Point Guard",
+      "bio": "Russell Westbrook III (born November 12, 1988) is an American professional basketball player for the Los Angeles Lakers of the National Basketball Association (NBA). He is a nine-time NBA All-Star and earned the NBA Most Valuable Player Award for the 2016–17 season. He is also a nine-time All-NBA Team member, led the league in scoring in 2014–15 and 2016–17, and won back-to-back NBA All-Star Game Most Valuable Player awards in 2015 and 2016. In 2017, the year he won the league MVP award, Westbrook became one of two players in NBA history to average a triple-double for a season, along with Oscar Robertson in 1962. He also set a record for the most triple-doubles in a season, with 42. He went on to average a triple-double the following two seasons as well as lead the league in assists and become the first player to lead the league in points and assists in multiple seasons. In 2020–21, he averaged a triple-double for the fourth time in five seasons. On May 10, 2021, he passed Robertson for the most career triple-doubles in NBA history. Westbrook has the worst career three point percentage in NBA history of players who have attempted more than 2500+ three point shots."
+    },
+    {
+      "id": 102,
+      "name": "Stephen Curry",
+      "front_image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Stephen_Curry_dribbling_2016_%28cropped%29.jpg",
+      "back_image": "https://cdn.vox-cdn.com/thumbor/2SlKtGt9JgPjIuUTsZdhN5x76v8=/0x0:4211x2803/1200x800/filters:focal(1981x243:2653x915)/cdn.vox-cdn.com/uploads/chorus_image/image/68843614/usa_today_12182424.0.jpg",
+      "team": "Golden State Warriors",
+      "team_image": "https://www.freepnglogos.com/uploads/warriors-png-logo/golden-state-warriors-png-logo-9.png",
+      "stat_ppg": 28.4,
+      "stat_apg": 8.3,
+      "stat_rpg": 4.1,
+      "position": "PG",
+      "position_name": "Point Guard",
+      "bio": "Wardell Stephen 'Steph' Curry II is an American professional basketball player for the Golden State Warriors of the National Basketball Association (NBA). He plays the point guard position. Many analysts and players have called him the greatest shooter in NBA history. He is credited with revolutionizing the game of basketball by inspiring teams to regularly utilize the three-point shot. A seven-time NBA All-Star, Curry has been named the NBA Most Valuable Player (MVP) twice and has won three NBA championships with the Warriors."
+    },
+    {
+      "id": 103,
+      "name": "Lebron James",
+      "front_image": "https://upload.wikimedia.org/wikipedia/commons/c/cf/LeBron_James_crop.jpg",
+      "back_image": "https://www.nbcsports.com/sites/rsnunited/files/short_form_video/hero/lebron-james-los-angeles-lakers-usatsi_1.jpg",
+      "team": "Los Angeles Lakers",
+      "team_image": "https://www.freepnglogos.com/uploads/lakers-logo-png/lakers-free-hd-logo-png-2.png",
+      "stat_ppg": 32.4,
+      "stat_apg": 8.3,
+      "stat_rpg": 8.1,
+      "position": "SF",
+      "position_name": "Small Forward",
+      "bio": "LeBron Raymone James Sr. is an American professional basketball player for the Los Angeles Lakers of the National Basketball Association (NBA). Nicknamed 'King James', he is widely considered one of the greatest players in NBA history and is frequently compared to Michael Jordan in debates over the greatest basketball player ever. The only player to have won NBA championships with three franchises (the Cleveland Cavaliers, the Miami Heat, and the Lakers) as NBA Finals MVP, James has competed in ten NBA Finals, eight of them consecutively with the Heat and the Cavaliers from 2011 to 2018. His accomplishments include four NBA championships, four NBA MVP awards, four NBA Finals MVP awards, and two Olympic gold medals. During his 18-year career, James holds the record for all-time playoffs points, is third in all-time points, and eighth in career assists. James has been selected to the All-NBA Team a record 17 times (with a record of 13 First Team selections and 11 consecutive First Team selections, the latter of which is shared with Jordan and Karl Malone), made the NBA All-Defensive First Team five times, and has been named an All-Star 17 times, including three All-Star MVP selections."
+    },
+    {
+      "id": 104,
+      "name": "Kevin Durant",
+      "front_image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Kevin_Durant_%28Wizards_v._Warriors%2C_1-24-2019%29_%28cropped%29.jpg",
+      "back_image": "https://images.daznservices.com/di/library/sporting_news/f0/4a/kevin-durant-getty-122520-ftrjpg_128pm7lxd9q8m1ri8q2p7p8i6y.jpg?t=-1642609722&quality=100",
+      "team": "Brooklyn Nets",
+      "team_image": "https://b.fssta.com/uploads/application/nba/team-logos/Nets.png",
+      "stat_ppg": 24.4,
+      "stat_apg": 7.3,
+      "stat_rpg": 6.1,
+      "position": "SF",
+      "position_name": "Small Forward",
+      "bio": "Kevin Wayne Durant, also known simply by his initials KD, is an American professional basketball player for the Brooklyn Nets of the National Basketball Association (NBA). He played one season of college basketball for the Texas Longhorns, and was selected as the second overall pick by the Seattle SuperSonics in the 2007 NBA draft. He played nine seasons with the franchise, which became the Oklahoma City Thunder in 2008, before signing with the Golden State Warriors in 2016, winning back-to-back championships in 2017 and 2018. After sustaining an Achilles injury in the 2019 finals, he joined the Nets as a free agent that summer. He has often been called the best player in the NBA."
+    },
+    {
+      "id": 105,
+      "name": "Giannis Antetokounmpo",
+      "front_image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Giannis_Antetokounmpo_%2824845003687%29_%28cropped%29.jpg",
+      "back_image": "https://basketballforever.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2020/07/23002609/Giannis.jpg",
+      "team": "Milwaukee Bucks",
+      "team_image": "https://cdn.freebiesupply.com/images/large/2x/milwaukee-bucks-logo-transparent.png",
+      "stat_ppg": 32.4,
+      "stat_apg": 6.3,
+      "stat_rpg": 13.1,
+      "position": "SF",
+      "position_name": "Small Forward",
+      "bio": "Giannis Sina Ugo Antetokounmpo is a Greek professional basketball player for the Milwaukee Bucks of the National Basketball Association (NBA). Antetokounmpo's nationality, in addition to his size, speed and ball-handling skills have earned him the nickname 'Greek Freak'. Antetokounmpo began playing basketball for the youth teams of Filathlitikos in Athens. In 2011, he began playing for the club's senior team before entering the 2013 NBA draft, where he was selected 15th overall by the Bucks. In 2016–17 he led the Bucks in all five major statistical categories and became the first player in NBA history to finish a regular season in the top 20 in all five statistics of total points, rebounds, assists, steals, and blocks. He received the Most Improved Player award in 2017. Antetokounmpo has received five All-Star selections, including being selected as an All-Star captain in 2019 and 2020, as he led the Eastern Conference in voting in these two years."
+    },
+    {
+      "id": 106,
+      "name": "James Harden",
+      "front_image": "https://upload.wikimedia.org/wikipedia/commons/a/ab/James_Harden_Rockets_cropped.jpg",
+      "back_image": "https://e0.365dm.com/21/01/2048x1152/skysports-james-james-harden_5237390.jpg",
+      "team": "Brooklyn Nets",
+      "team_image": "https://b.fssta.com/uploads/application/nba/team-logos/Nets.png",
+      "stat_ppg": 35.7,
+      "stat_apg": 13.3,
+      "stat_rpg": 5.1,
+      "position": "SG",
+      "position_name": "Shooting Guard",
+      "bio": "James Edward Harden Jr. (born August 26, 1989) is an American professional basketball player for the Brooklyn Nets of the National Basketball Association (NBA). He is one of the NBA's most prolific scorers and has been called the best shooting guard in the NBA, as well as one of the top overall players in the league.He played college basketball for the Arizona State Sun Devils, where he was named a consensus All-American and Pac-10 Player of the Year in 2009. Harden was selected with the third overall pick in the 2009 NBA draft by the Oklahoma City Thunder. In 2012, he was named NBA Sixth Man of the Year with the Thunder and helped the team reach the NBA Finals, where they lost to the Miami Heat in five games."
+    },
+    {
+      "id": 107,
+      "name": "Nikola Jokić",
+      "front_image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Nikola_Jokic_free_throw_%28cropped%29.jpg",
+      "back_image": "https://www.rts.rs/upload/thumbnail/2019/01/18/5790462_jokic-mjpg",
+      "team": "Denver Nuggets",
+      "team_image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Denver_Nuggets.svg/1200px-Denver_Nuggets.svg.png",
+      "stat_ppg": 35.7,
+      "stat_apg": 14.3,
+      "stat_rpg": 10.1,
+      "position": "C",
+      "position_name": "Center",
+      "bio": "Nikola Jokić is a Serbian professional basketball player for the Denver Nuggets of the National Basketball Association (NBA) who plays the center position. The three-time NBA All-Star has been named to the All-NBA Team on three occasions (including two first-team selections), and has won the NBA Most Valuable Player Award for the 2020–21 NBA season. He also represents the Serbian national team. Nicknamed 'the Joker', Jokić was selected by the Nuggets in the second round of the 2014 NBA draft. He was voted to the NBA All-Rookie First Team in 2016. In the 2018–19 NBA season, while leading the Nuggets to the Western Conference Semifinals, he received his first All-Star and All-NBA First Team selections. In the following season, he once again received All-Star and All-NBA honors, while leading his team to the Western Conference Finals. Jokić ranks among the top 10 on the all-time list of the NBA players with the most triple-doubles, where he is the leading European player, and he holds the record for fastest triple-double (achieved in 14 minutes and 33 seconds). He also won an Olympic silver medal at the 2016 Rio Games."
+    },
+    {
+      "id": 108,
+      "name": "Luka Dončić",
+      "front_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Luka_Don%C4%8Di%C4%87_2021.jpg/1200px-Luka_Don%C4%8Di%C4%87_2021.jpg",
+      "back_image": "https://www.bostonglobe.com/resizer/QtBJcHims9VGVRPFU_Wxxbsn9ho=/arc-anglerfish-arc2-prod-bostonglobe/public/JMAZJLHRWUCN3P4TIC6I5V7JGU.jpg",
+      "team": "Dallas Mavericks",
+      "team_image": "https://www.pngkit.com/png/full/221-2210797_mavs-dallas-mavericks-logo.png",
+      "stat_ppg": 25.7,
+      "stat_apg": 11.3,
+      "stat_rpg": 8.1,
+      "position": "SF",
+      "position_name": "Small Forward",
+      "bio": "Luka Dončić is a Slovenian professional basketball player for the Dallas Mavericks of the National Basketball Association (NBA). He also represents the Slovenian national team. Born in Ljubljana, Dončić shone as a youth player for Union Olimpija before joining the youth academy of Real Madrid. He debuted for their senior team in 2015, at age 16, becoming the youngest in club history. Two years later, he led Madrid to the 2018 EuroLeague title, winning the EuroLeague MVP as well as the Final Four MVP. Dončić was also named the ACB Most Valuable Player and won back-to-back EuroLeague Rising Star and ACB Best Young Player awards. He was selected to the EuroLeague 2010–20 All-Decade Team."
+    }
+  ]
+}
