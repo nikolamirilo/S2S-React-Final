@@ -87,6 +87,8 @@ const Slider = () => {
             </div>
           );
         })}
+        {/* <BtnSlider moveSlider={nextSlide} direction={"next"} /> */}
+        {/* <BtnSlider moveSlider={prevSlide} direction={"prev"} /> */}
       </div>
     </div>
   );
