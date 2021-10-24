@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useGames } from "../data/GamesContext";
+import BtnSlider from "./BtnSlider";
 
 const Slider = () => {
   const [slideIndex, setSlideIndex] = useState(1);
@@ -51,10 +52,10 @@ const Slider = () => {
                           alt={game.first_team_name}
                           className="first-team-image"
                         />
-                        <h3 className="first-team-name">
-                          {game.first_team_name}
-                        </h3>
                       </div>
+                      <h3 className="first-team-name">
+                        {game.first_team_name}
+                      </h3>
                     </div>
                     <div className="vs-image">
                       <div className="vs-wrapper">
@@ -68,12 +69,11 @@ const Slider = () => {
                           alt={game.second_team_name}
                           className="second-team-image"
                         />
-                        <h3 className="second-team-name">
-                          {game.second_team_name}
-                        </h3>
                       </div>
+                      <h3 className="second-team-name">
+                        {game.second_team_name}
+                      </h3>
                     </div>
-
                   </div>
                   <div className="score-wrapper">
                     <h3 className="score">{game.score}</h3>
@@ -87,8 +87,18 @@ const Slider = () => {
             </div>
           );
         })}
-        {/* <BtnSlider moveSlider={nextSlide} direction={"next"} /> */}
-        {/* <BtnSlider moveSlider={prevSlide} direction={"prev"} /> */}
+        <BtnSlider moveSlide={nextSlide} direction={"next"} />
+        <BtnSlider moveSlide={prevSlide} direction={"prev"} />
+
+        <div className="container-dots">
+          {games.map((game, index) => (
+            <div
+              key={game.id}
+              onClick={() => moveDot(index + 1)}
+              className={slideIndex === index + 1 ? "dot active" : "dot"}
+            ></div>
+          ))}
+        </div>
       </div>
     </div>
   );
