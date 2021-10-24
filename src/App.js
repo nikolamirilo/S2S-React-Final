@@ -8,9 +8,9 @@ import Error from "./Pages/Error";
 const App = () => {
   return (
     <Switch>
-      <Route path="/" component={Home} />
-      <Route path="/players/:player" component={RoutePage} />
-      <Route path="/teams/:team" component={RoutePage} />
+      <Route exact path="/" component={Home} />
+      <Route exact path="/players/:player" component={RoutePage} />
+      <Route exact path="/teams/:team" component={RoutePage} />
       <Route path="*" component={Error} />
     </Switch>
   );
