@@ -1,7 +1,15 @@
-import React from 'react'
-import logo from '../assets/images/nbaInfo-logo.png'
+import React from "react";
+import logo from "../assets/images/nbaInfo-logo.png";
 
-const Navbar = () => {
+export const scrollFunc = (sectionName) => {
+  sectionName.current.scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+    inline: "end",
+  });
+};
+
+const Navbar = (props) => {
   return (
     <div className="main-navbar">
       <div className="logo-wrapper">
@@ -9,14 +17,14 @@ const Navbar = () => {
       </div>
       <div className="link-wrapper">
         <ul>
-          <li>Games</li>
-          <li>Players</li>
-          <li>Teams</li>
-          <li>About Us</li>
+          <li onClick={() => scrollFunc(props.sections[0])}>Games</li>
+          <li onClick={() => scrollFunc(props.sections[1])}>Players</li>
+          <li onClick={() => scrollFunc(props.sections[2])}>Teams</li>
+          <li onClick={() => scrollFunc(props.sections[3])}>About Us</li>
         </ul>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

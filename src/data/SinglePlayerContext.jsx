@@ -4,7 +4,7 @@ import database from "../database.json";
 const SinglePlayerContext = React.createContext();
 
 export const useSinglePlayer = () => {
-  return useContext(database.teams);
+  return useContext(SinglePlayerContext);
 };
 
 export const SinglePlayerProvider = ({ children }) => {

@@ -1,8 +1,9 @@
-import React from 'react'
-import bgImg from '../assets/images/bg-basketball.png'
-import playerImg from '../assets/images/basketball-player.png'
+import React from "react";
+import bgImg from "../assets/images/bg-basketball.png";
+import playerImg from "../assets/images/basketball-player.png";
+import { scrollFunc } from "./Navbar";
 
-const Hero = () => {
+const Hero = (props) => {
   return (
     <div className="hero">
       <div className="image-wrapper">
@@ -11,14 +12,14 @@ const Hero = () => {
       <div className="banner">
         <h1>NBA Info</h1>
         <p>Find out quickly every hot info from NBA</p>
-        <button>
+        <button onClick={() => scrollFunc(props.toSection)}>
           <div className="arrows">
             <span className="arrow-1"></span>
             <span className="arrow-2"></span>
             <span className="arrow-3"></span>
           </div>
-            <p>GAMES</p>
-            <div className="arrows">
+          <p>GAMES</p>
+          <div className="arrows">
             <span className="arrow-1"></span>
             <span className="arrow-2"></span>
             <span className="arrow-3"></span>
@@ -29,7 +30,7 @@ const Hero = () => {
         <img src={playerImg} alt="Basketball Player" className="front-image" />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

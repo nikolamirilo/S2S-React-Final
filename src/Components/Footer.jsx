@@ -10,9 +10,9 @@ import {
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-const Footer = () => {
+const Footer = (props) => {
   return (
-    <footer className="footer">
+    <footer className="footer" ref={props.section}>
       <div className="footer-wrapper">
         <div className="footer-left">
           <h3>NBA Info</h3>

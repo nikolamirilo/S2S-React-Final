@@ -3,7 +3,7 @@ import Card from "./Card";
 
 const CardsContainer = (props) => {
   return (
-    <div className="cards-container">
+    <div className="cards-container" ref={props.section}>
       <div className="section-title" style={{ marginTop: "2rem" }}>
         <h2>{props.title}</h2>
       </div>
