@@ -2,7 +2,7 @@ import React from 'react'
 
 const RoutePage = () => {
   return (
-    <div className="RoutePage">
+    <div className="route-page">
       
     </div>
   )
